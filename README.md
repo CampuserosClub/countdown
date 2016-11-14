@@ -1,2 +1,2 @@
 # Countdown
-Countdown to Campus Party around the world
+Countdown website to all Campus Party around the world
