@@ -21,6 +21,7 @@ body {
 .clock {
     width: auto;
     display: inline-block;
+    -moz-transform: scale(0.5)
 }
 
 footer {
@@ -32,3 +33,9 @@ footer a {
     color: #333;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 710px) { .clock{ zoom: 0.9; } }
+@media only screen and (max-width: 610px) { .clock{ zoom: 0.6; } }
+@media only screen and (max-width: 450px) { .clock{ zoom: 0.5; } }
+@media only screen and (max-width: 380px) { .clock{ zoom: 0.4; } }
+@media only screen and (max-width: 350px) { .clock{ zoom: 0.3; } }
